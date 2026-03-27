@@ -1,0 +1,14 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore environment/config files
+.env
+koneksi.php
+
+# Ignore dependencies (kalau ada)
+vendor/
+node_modules/

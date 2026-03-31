@@ -1,5 +1,3 @@
-<img width="1919" height="911" alt="image" src="https://github.com/user-attachments/assets/2c79b2d2-8bf9-46a7-8761-c9a60c28c15d" /># data-mining-apriori-php-mysql
-## 📁 Project Structure
 
 apriori-market-basket-analysis/
 │

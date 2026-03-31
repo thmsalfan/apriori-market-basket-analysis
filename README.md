@@ -1,101 +1,90 @@
-## 📈 About Apriori Algorithm
+# 🛒 Apriori Market Basket Analysis
 
-This project implements the Apriori algorithm to discover association rules in transaction data.  
-It calculates:
+## 📊 Description
 
-- Support
-- Confidence
-- Frequent itemsets
+This project is a web-based application built with PHP to analyze transaction data using the Apriori algorithm.
+It helps discover association rules and product relationships.
 
-The result is used to recommend product placement and understand buying patterns.
+---
 
-## 📁 Project Structure
+## ⚙️ System Requirements
 
-apriori-market-basket-analysis/
+| Component | Version        |
+| --------- | -------------- |
+| PHP       | 5.2.1          |
+| MySQL     | Any            |
+| Server    | XAMPP / Apache |
 
-├── assets/ # CSS, JS, Bootstrap, libraries
+> ⚠️ **Important:**
+> This project was developed using PHP 5.2.1. It may not run properly on newer PHP versions (PHP 7/8).
 
-├── DATABASE/ # SQL database
+---
 
-├── export/ # Export PDF / Excel
+## ⚡ Installation & Setup
 
-├── import/ # Import data
+1. Clone this repository:
 
-├── koneksi.example.php # Example database configuration
-
-├── database.php # Database connection handler
-
-├── proses_apriori.php # Apriori algorithm
-
-├── mining.php # Mining results
-
-└── index.php # Main dashboard
-
-## 🛠️ Built With
-
-- PHP (Native)
-- MySQL
-- Bootstrap
-- JavaScript
-- Apriori Algorithm
-
-## ⚙️ Installation & Setup
-
-Clone this repository
-```bash
-
+```
 git clone https://github.com/thmsalfan/apriori-market-basket-analysis.git
-Move the project folder to:
-C:/xampp/htdocs/
-Import database:
-DATABASE/db_apriori.sql
-Copy the example configuration:
-koneksi.example.php → koneksi.php
-Edit koneksi.php and adjust your database credentials.
-## Run the project:
-http://localhost/apriori-market-basket-analysis
+```
 
-## Default Login
-Tambahkan:
-```markdown id="z8abn9"
-## Default Login
+2. Move the project folder to:
+
+```
+C:/xampp/htdocs/
+```
+
+3. Import database:
+
+```
+DATABASE/db_apriori.sql
+```
+
+4. Copy configuration file:
+
+```
+koneksi.example.php → koneksi.php
+```
+
+5. Edit `koneksi.php` and adjust your database credentials
+
+6. Run the project:
+
+```
+http://localhost/apriori-market-basket-analysis
+```
+
+---
+
+## 🔑 Default Login
+
 | Role  | Username | Password |
-|-------|---------|---------|
-| Admin | admin   | 12345   |
+| ----- | -------- | -------- |
+| Admin | admin    | 12345    |
+
+---
 
 ## 📸 Screenshots
 
-- Dashboard
-Login Page : 
-<img width="1919" height="911" alt="Screenshot 2026-03-31 142822" src="https://github.com/user-attachments/assets/d41daa39-27eb-4846-ac4e-fe02b6c308fe" />
+### 🔐 Login Page
 
-Dashboard : 
-<img width="1919" height="913" alt="Screenshot 2026-03-31 143140" src="https://github.com/user-attachments/assets/ad18326c-20f3-45b3-9533-7896d51748bf" />
+<img src="https://github.com/user-attachments/assets/d41daa39-27eb-4846-ac4e-fe02b6c308fe" width="100%" />
 
-- Apriori result page :
-<img width="1919" height="788" alt="Screenshot 2026-03-31 143301" src="https://github.com/user-attachments/assets/eb920203-8ae5-45f6-b63d-38623b9c7b60" />
+### 🏠 Dashboard
 
-- Association rule output
-<img width="1696" height="878" alt="image" src="https://github.com/user-attachments/assets/220c0ce0-8b4a-462e-88cf-937860c8d2de" />
+<img src="https://github.com/user-attachments/assets/ad18326c-20f3-45b3-9533-7896d51748bf" width="100%" />
 
-#Noted
-## ⚙️ System Requirements
+### 📊 Apriori Result
 
-| Component | Version |
-|----------|--------|
-| PHP      | 5.2.1  |
-| MySQL    | Any    |
-| Server   | XAMPP / Apache |
+<img src="https://github.com/user-attachments/assets/eb920203-8ae5-45f6-b63d-38623b9c7b60" width="100%" />
 
-> ⚠️ Important:
-> This project was developed using PHP 5.2.1. Compatibility issues may occur on newer PHP versions.
+### 🔗 Association Rules
 
+<img src="https://github.com/user-attachments/assets/220c0ce0-8b4a-462e-88cf-937860c8d2de" width="100%" />
+
+---
 
 ## 👨‍💻 Author
-Thomas Alfan  
+
+**Thomas Alfan**
 GitHub: https://github.com/thmsalfan
-
-
-
-
-

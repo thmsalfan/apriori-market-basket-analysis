@@ -2,15 +2,15 @@
 
 apriori-market-basket-analysis/
 │
-├── assets/              # CSS, JS, Bootstrap, libraries
-├── DATABASE/            # SQL database
-├── export/              # Export PDF / Excel
-├── import/              # Import data
-├── koneksi.example.php  # Example database configuration
-├── database.php         # Database connection handler
-├── proses_apriori.php   # Apriori algorithm processing
-├── mining.php           # Mining results
-└── index.php            # Main dashboard
+├── assets/ # CSS, JS, Bootstrap, libraries
+├── DATABASE/ # SQL database
+├── export/ # Export PDF / Excel
+├── import/ # Import data
+├── koneksi.example.php # Example database configuration
+├── database.php # Database connection handler
+├── proses_apriori.php # Apriori algorithm
+├── mining.php # Mining results
+└── index.php # Main dashboard
 
 ## 📈 About Apriori Algorithm
 

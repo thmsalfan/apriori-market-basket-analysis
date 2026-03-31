@@ -61,14 +61,17 @@ GitHub: https://github.com/thmsalfan
 
 ## ⚙️ Installation & Setup
 
-1. Clone this repository
+Clone this repository
 ```bash
 
 git clone https://github.com/thmsalfan/apriori-market-basket-analysis.git
+Move the project folder to:
 C:/xampp/htdocs/
+Import database:
 DATABASE/db_apriori.sql
+Copy the example configuration:
 koneksi.example.php → koneksi.php
-
+Edit koneksi.php and adjust your database credentials.
 ## Run the project:
 http://localhost/apriori-market-basket-analysis
 
@@ -79,6 +82,7 @@ Tambahkan:
 | Role  | Username | Password |
 |-------|---------|---------|
 | Admin | admin   | 12345   |
+
 
 
 
